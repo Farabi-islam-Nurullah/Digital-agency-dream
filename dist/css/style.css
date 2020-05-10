@@ -1,0 +1,134 @@
+.container-wrapper h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.container-wrapper h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container-wrapper h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.container-wrapper p {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.container-wrapper a {
+  text-decoration: none;
+}
+
+.container-wrapper .banar-hr {
+  height: 2px;
+  width: 10%;
+  background-color: #1592E6;
+}
+
+.container-wrapper .hero-section {
+  color: #fff;
+  background: url(../images/hero.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+}
+
+.container-wrapper .hero-section a {
+  text-transform: uppercase;
+}
+
+.container-wrapper .hero-section .banar {
+  padding: 200px 0px 100px;
+}
+
+.container-wrapper .hero-section .navbar {
+  margin-top: 10px;
+  background-color: #00000045;
+}
+
+.container-wrapper .hero-section .navbar .navbar-toggler span {
+  color: #fff;
+}
+
+.container-wrapper .service-section .content p {
+  font-size: 14px;
+}
+
+.container-wrapper .expertise-section {
+  background-color: #F7F7F7;
+}
+
+.container-wrapper .expertise-section .side-img {
+  background: url(../images/side-1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container-wrapper .expertise-section .content p {
+  font-size: 14px;
+}
+
+.container-wrapper .fortfolio-section .img-content {
+  position: relative;
+}
+
+.container-wrapper .fortfolio-section .content {
+  position: absolute;
+  bottom: 10%;
+  z-index: -1;
+}
+
+.container-wrapper .fortfolio-section .side-img-2 {
+  background: url(../images/iphone.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container-wrapper .fortfolio-section .portfoli-gallery .col-md-4 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.container-wrapper .about-us-section p {
+  font-size: 14px;
+}
+
+.container-wrapper .about-us-section h2 {
+  font-weight: 600;
+}
+
+.container-wrapper .team-section {
+  background-color: #F7F7F7;
+}
+
+.container-wrapper .team-section ul li {
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.container-wrapper .team-section ul li a .fa {
+  line-height: 30px;
+}
+
+.container-wrapper .team-section .team-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.container-wrapper .footer-section {
+  background-color: black;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

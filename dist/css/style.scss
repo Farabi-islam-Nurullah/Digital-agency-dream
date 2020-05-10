@@ -1,0 +1,128 @@
+.container-wrapper {
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    p {
+        font-family: 'Noto Sans', sans-serif;
+    }
+    a {
+        text-decoration: none;
+    }
+    .banar-hr {
+        height: 2px;
+        width: 10%;
+        background-color: #1592E6;
+    }
+    .hero-section {
+        a {
+            text-transform: uppercase;
+        }
+        color: #fff;
+        background: url(../images/hero.jpg) no-repeat;
+        background-size: cover;
+        padding-top:10px;
+        .banar {
+            padding: 200px 0px 100px;
+        }
+        .navbar {
+            margin-top: 10px;
+            background-color: #00000045;
+            .navbar-toggler {
+                span {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .service-section {
+        .content {
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .expertise-section {
+        background-color: #F7F7F7;
+        .side-img {
+            background: url(../images/side-1.jpg) no-repeat;
+            background-size: cover;
+        }
+        .content {
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .fortfolio-section {
+        .img-content {
+            position: relative;
+        }
+        .content {
+            position: absolute;
+            bottom: 10%;
+            z-index: -1;
+        }
+        .side-img-2 {
+            background: url(../images/iphone.jpg) no-repeat;
+            background-size: cover;
+        }
+        .portfoli-gallery {
+            .col-md-4 {
+                padding-right: 0px;
+                padding-left: 0px;
+            }
+        }
+    }
+    .about-us-section {
+        p {
+            font-size: 14px;
+        }
+        h2 {
+            font-weight: 600;
+        }
+    }
+    .team-section {
+        background-color: #F7F7F7;
+        ul {
+            li {
+                background-color: black;
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                a {
+                    .fa {
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+        .team-img {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+    }
+    .footer-section {
+        background-color: black;
+        color: #fff;
+    }
+}
